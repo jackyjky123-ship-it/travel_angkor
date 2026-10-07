@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { TourPackage } from '../types';
-import { Clock, Check, ArrowRight, ArrowLeft, Droplets, ShieldCheck, Sparkles, Compass, Eye, MapPin } from 'lucide-react';
+import { Clock, Check, ArrowRight, ArrowLeft, Droplets } from 'lucide-react';
 import { FadeIn } from './FadeIn';
 
 interface PackagesSectionProps {

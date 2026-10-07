@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Menu, Share2, Twitter, Facebook, Instagram, Youtube, ArrowRight, ArrowLeft, ShieldCheck, Check, Sparkles } from 'lucide-react';
+import { Search, Menu, Share2, Twitter, Facebook, Instagram, Youtube, ArrowRight, ArrowLeft } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FadeIn } from './FadeIn';
 

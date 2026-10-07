@@ -1,6 +1,6 @@
 import React from 'react';
 import { TourPackage } from '../types';
-import { X, Clock, MapPin, Camera, Check, ShieldCheck, Droplets, Users, Car, ArrowRight } from 'lucide-react';
+import { X, Clock, Camera, Check, ShieldCheck, Droplets } from 'lucide-react';
 
 interface ItineraryModalProps {
   pkg: TourPackage | null;

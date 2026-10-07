@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageCircle, X, Send, Sparkles } from 'lucide-react';
+import { MessageCircle, X, Send } from 'lucide-react';
 
 export const WhatsAppFloat: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

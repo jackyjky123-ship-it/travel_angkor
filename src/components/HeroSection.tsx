@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, ShieldCheck, Users, Play, ArrowDown, Sparkles, Compass } from 'lucide-react';
+import { Star, ShieldCheck, Users, Play } from 'lucide-react';
 
 interface HeroSectionProps {
   onExploreClick: () => void;

@@ -45,7 +45,6 @@ export const HomePage: React.FC = () => {
       {/* 1. Sticky Navigation */}
       <Navbar
         onBookNowClick={() => scrollToBooking()}
-        onExploreClick={scrollToTours}
       />
 
       <main>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Ticket, Shirt, Sun, ShieldAlert, Check, ArrowRight, ArrowLeft, X, Sparkles, ExternalLink } from 'lucide-react';
+import { Ticket, Shirt, Sun, ShieldAlert, Check, ArrowRight, X } from 'lucide-react';
 import { FadeIn } from './FadeIn';
 
 interface PrepItem {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { TourPackage } from '../types';
-import { Calendar, Users, Car, Check, MessageCircle, ShieldCheck, Clock, ArrowRight, Sparkles } from 'lucide-react';
+import { Check, MessageCircle, ShieldCheck } from 'lucide-react';
 
 interface BookingSectionProps {
   packages: TourPackage[];

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Volume2, VolumeX, Sun, Sparkles } from 'lucide-react';
+import { X, Volume2, VolumeX, Sun } from 'lucide-react';
 
 interface SunriseVideoModalProps {
   isOpen: boolean;

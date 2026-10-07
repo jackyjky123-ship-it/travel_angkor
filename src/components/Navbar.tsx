@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, MessageCircle, Calendar, Compass, ArrowRight } from 'lucide-react';
+import { Menu, X, MessageCircle, Calendar } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface NavbarProps {
   onBookNowClick: () => void;
-  onExploreClick: () => void;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ onBookNowClick, onExploreClick }) => {
+export const Navbar: React.FC<NavbarProps> = ({ onBookNowClick }) => {
   const [scrolled, setScrolled] = useState(false);
   const [isScrolling, setIsScrolling] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
